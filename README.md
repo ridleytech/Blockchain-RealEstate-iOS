@@ -2,6 +2,15 @@
 
 A native SwiftUI client for the Blockchain Real Estate project. It focuses on browsing fractional real-estate listings and viewing property details (including an AI chat experience).
 
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="./assets/screen1.png" alt="Home / Property Feed" width="360" /></td>
+    <td><img src="./assets/screen2.png" alt="Property Detail" width="360" /></td>
+  </tr>
+</table>
+
 ## Features
 
 - **Property feed**
