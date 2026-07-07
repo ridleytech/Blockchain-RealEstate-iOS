@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		336E1C412FFDBA2300B7E022 /* WalletConnect in Frameworks */ = {isa = PBXBuildFile; productRef = 336E1C402FFDBA2300B7E022 /* WalletConnect */; };
+		336E1C432FFDBA2300B7E022 /* WalletConnectAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 336E1C422FFDBA2300B7E022 /* WalletConnectAuth */; };
+		336E1C452FFDBA2300B7E022 /* WalletConnectChat in Frameworks */ = {isa = PBXBuildFile; productRef = 336E1C442FFDBA2300B7E022 /* WalletConnectChat */; };
+		336E1C472FFDBA2300B7E022 /* WalletConnectEcho in Frameworks */ = {isa = PBXBuildFile; productRef = 336E1C462FFDBA2300B7E022 /* WalletConnectEcho */; };
+		336E1C492FFDBA2300B7E022 /* WalletConnectNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 336E1C482FFDBA2300B7E022 /* WalletConnectNetworking */; };
+		336E1C502FFDC0ED00B7E022 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 336E1C4F2FFDC0ED00B7E022 /* Starscream */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		336E1BE02FFDB07D00B7E022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336E1BC52FFDB07900B7E022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336E1BCC2FFDB07900B7E022;
+			remoteInfo = "Blockchain-RealEstate-iOS";
+		};
+		336E1BEA2FFDB07D00B7E022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336E1BC52FFDB07900B7E022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336E1BCC2FFDB07900B7E022;
+			remoteInfo = "Blockchain-RealEstate-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		336E1BCD2FFDB07900B7E022 /* Blockchain-RealEstate-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blockchain-RealEstate-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		336E1BDF2FFDB07D00B7E022 /* Blockchain-RealEstate-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blockchain-RealEstate-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		336E1BE92FFDB07D00B7E022 /* Blockchain-RealEstate-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blockchain-RealEstate-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		336E1BCF2FFDB07900B7E022 /* Blockchain-RealEstate-iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Blockchain-RealEstate-iOS";
+			sourceTree = "<group>";
+		};
+		336E1BE22FFDB07D00B7E022 /* Blockchain-RealEstate-iOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Blockchain-RealEstate-iOSTests";
+			sourceTree = "<group>";
+		};
+		336E1BEC2FFDB07D00B7E022 /* Blockchain-RealEstate-iOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Blockchain-RealEstate-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		336E1BCA2FFDB07900B7E022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336E1C432FFDBA2300B7E022 /* WalletConnectAuth in Frameworks */,
+				336E1C412FFDBA2300B7E022 /* WalletConnect in Frameworks */,
+				336E1C452FFDBA2300B7E022 /* WalletConnectChat in Frameworks */,
+				336E1C472FFDBA2300B7E022 /* WalletConnectEcho in Frameworks */,
+				336E1C492FFDBA2300B7E022 /* WalletConnectNetworking in Frameworks */,
+				336E1C502FFDC0ED00B7E022 /* Starscream in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336E1BDC2FFDB07D00B7E022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336E1BE62FFDB07D00B7E022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		336E1BC42FFDB07900B7E022 = {
+			isa = PBXGroup;
+			children = (
+				336E1BCF2FFDB07900B7E022 /* Blockchain-RealEstate-iOS */,
+				336E1BE22FFDB07D00B7E022 /* Blockchain-RealEstate-iOSTests */,
+				336E1BEC2FFDB07D00B7E022 /* Blockchain-RealEstate-iOSUITests */,
+				336E1BCE2FFDB07900B7E022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		336E1BCE2FFDB07900B7E022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				336E1BCD2FFDB07900B7E022 /* Blockchain-RealEstate-iOS.app */,
+				336E1BDF2FFDB07D00B7E022 /* Blockchain-RealEstate-iOSTests.xctest */,
+				336E1BE92FFDB07D00B7E022 /* Blockchain-RealEstate-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		336E1BCC2FFDB07900B7E022 /* Blockchain-RealEstate-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336E1BF32FFDB07D00B7E022 /* Build configuration list for PBXNativeTarget "Blockchain-RealEstate-iOS" */;
+			buildPhases = (
+				336E1BC92FFDB07900B7E022 /* Sources */,
+				336E1BCA2FFDB07900B7E022 /* Frameworks */,
+				336E1BCB2FFDB07900B7E022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				336E1BCF2FFDB07900B7E022 /* Blockchain-RealEstate-iOS */,
+			);
+			name = "Blockchain-RealEstate-iOS";
+			packageProductDependencies = (
+				336E1C402FFDBA2300B7E022 /* WalletConnect */,
+				336E1C422FFDBA2300B7E022 /* WalletConnectAuth */,
+				336E1C442FFDBA2300B7E022 /* WalletConnectChat */,
+				336E1C462FFDBA2300B7E022 /* WalletConnectEcho */,
+				336E1C482FFDBA2300B7E022 /* WalletConnectNetworking */,
+				336E1C4F2FFDC0ED00B7E022 /* Starscream */,
+			);
+			productName = "Blockchain-RealEstate-iOS";
+			productReference = 336E1BCD2FFDB07900B7E022 /* Blockchain-RealEstate-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		336E1BDE2FFDB07D00B7E022 /* Blockchain-RealEstate-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336E1BF62FFDB07D00B7E022 /* Build configuration list for PBXNativeTarget "Blockchain-RealEstate-iOSTests" */;
+			buildPhases = (
+				336E1BDB2FFDB07D00B7E022 /* Sources */,
+				336E1BDC2FFDB07D00B7E022 /* Frameworks */,
+				336E1BDD2FFDB07D00B7E022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336E1BE12FFDB07D00B7E022 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				336E1BE22FFDB07D00B7E022 /* Blockchain-RealEstate-iOSTests */,
+			);
+			name = "Blockchain-RealEstate-iOSTests";
+			packageProductDependencies = (
+			);
+			productName = "Blockchain-RealEstate-iOSTests";
+			productReference = 336E1BDF2FFDB07D00B7E022 /* Blockchain-RealEstate-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		336E1BE82FFDB07D00B7E022 /* Blockchain-RealEstate-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336E1BF92FFDB07D00B7E022 /* Build configuration list for PBXNativeTarget "Blockchain-RealEstate-iOSUITests" */;
+			buildPhases = (
+				336E1BE52FFDB07D00B7E022 /* Sources */,
+				336E1BE62FFDB07D00B7E022 /* Frameworks */,
+				336E1BE72FFDB07D00B7E022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336E1BEB2FFDB07D00B7E022 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				336E1BEC2FFDB07D00B7E022 /* Blockchain-RealEstate-iOSUITests */,
+			);
+			name = "Blockchain-RealEstate-iOSUITests";
+			packageProductDependencies = (
+			);
+			productName = "Blockchain-RealEstate-iOSUITests";
+			productReference = 336E1BE92FFDB07D00B7E022 /* Blockchain-RealEstate-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		336E1BC52FFDB07900B7E022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					336E1BCC2FFDB07900B7E022 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					336E1BDE2FFDB07D00B7E022 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 336E1BCC2FFDB07900B7E022;
+					};
+					336E1BE82FFDB07D00B7E022 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 336E1BCC2FFDB07900B7E022;
+					};
+				};
+			};
+			buildConfigurationList = 336E1BC82FFDB07900B7E022 /* Build configuration list for PBXProject "Blockchain-RealEstate-iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 336E1BC42FFDB07900B7E022;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				336E1C3F2FFDBA2300B7E022 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */,
+				336E1C4E2FFDC0ED00B7E022 /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 336E1BCE2FFDB07900B7E022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				336E1BCC2FFDB07900B7E022 /* Blockchain-RealEstate-iOS */,
+				336E1BDE2FFDB07D00B7E022 /* Blockchain-RealEstate-iOSTests */,
+				336E1BE82FFDB07D00B7E022 /* Blockchain-RealEstate-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		336E1BCB2FFDB07900B7E022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336E1BDD2FFDB07D00B7E022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336E1BE72FFDB07D00B7E022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		336E1BC92FFDB07900B7E022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336E1BDB2FFDB07D00B7E022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336E1BE52FFDB07D00B7E022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		336E1BE12FFDB07D00B7E022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336E1BCC2FFDB07900B7E022 /* Blockchain-RealEstate-iOS */;
+			targetProxy = 336E1BE02FFDB07D00B7E022 /* PBXContainerItemProxy */;
+		};
+		336E1BEB2FFDB07D00B7E022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336E1BCC2FFDB07900B7E022 /* Blockchain-RealEstate-iOS */;
+			targetProxy = 336E1BEA2FFDB07D00B7E022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		336E1BF12FFDB07D00B7E022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		336E1BF22FFDB07D00B7E022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		336E1BF42FFDB07D00B7E022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blockchain-RealEstate-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = RR25B7NB9X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ridleytech.Blockchain-RealEstate-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		336E1BF52FFDB07D00B7E022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blockchain-RealEstate-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = RR25B7NB9X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ridleytech.Blockchain-RealEstate-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		336E1BF72FFDB07D00B7E022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ridleytech.Blockchain-RealEstate-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blockchain-RealEstate-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Blockchain-RealEstate-iOS";
+			};
+			name = Debug;
+		};
+		336E1BF82FFDB07D00B7E022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ridleytech.Blockchain-RealEstate-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blockchain-RealEstate-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Blockchain-RealEstate-iOS";
+			};
+			name = Release;
+		};
+		336E1BFA2FFDB07D00B7E022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ridleytech.Blockchain-RealEstate-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blockchain-RealEstate-iOS";
+			};
+			name = Debug;
+		};
+		336E1BFB2FFDB07D00B7E022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ridleytech.Blockchain-RealEstate-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blockchain-RealEstate-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		336E1BC82FFDB07900B7E022 /* Build configuration list for PBXProject "Blockchain-RealEstate-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336E1BF12FFDB07D00B7E022 /* Debug */,
+				336E1BF22FFDB07D00B7E022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336E1BF32FFDB07D00B7E022 /* Build configuration list for PBXNativeTarget "Blockchain-RealEstate-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336E1BF42FFDB07D00B7E022 /* Debug */,
+				336E1BF52FFDB07D00B7E022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336E1BF62FFDB07D00B7E022 /* Build configuration list for PBXNativeTarget "Blockchain-RealEstate-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336E1BF72FFDB07D00B7E022 /* Debug */,
+				336E1BF82FFDB07D00B7E022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336E1BF92FFDB07D00B7E022 /* Build configuration list for PBXNativeTarget "Blockchain-RealEstate-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336E1BFA2FFDB07D00B7E022 /* Debug */,
+				336E1BFB2FFDB07D00B7E022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		336E1C3F2FFDBA2300B7E022 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WalletConnect/WalletConnectSwiftV2";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.6;
+			};
+		};
+		336E1C4E2FFDC0ED00B7E022 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		336E1C402FFDBA2300B7E022 /* WalletConnect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 336E1C3F2FFDBA2300B7E022 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */;
+			productName = WalletConnect;
+		};
+		336E1C422FFDBA2300B7E022 /* WalletConnectAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 336E1C3F2FFDBA2300B7E022 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */;
+			productName = WalletConnectAuth;
+		};
+		336E1C442FFDBA2300B7E022 /* WalletConnectChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 336E1C3F2FFDBA2300B7E022 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */;
+			productName = WalletConnectChat;
+		};
+		336E1C462FFDBA2300B7E022 /* WalletConnectEcho */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 336E1C3F2FFDBA2300B7E022 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */;
+			productName = WalletConnectEcho;
+		};
+		336E1C482FFDBA2300B7E022 /* WalletConnectNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 336E1C3F2FFDBA2300B7E022 /* XCRemoteSwiftPackageReference "WalletConnectSwiftV2" */;
+			productName = WalletConnectNetworking;
+		};
+		336E1C4F2FFDC0ED00B7E022 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 336E1C4E2FFDC0ED00B7E022 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 336E1BC52FFDB07900B7E022 /* Project object */;
+}
